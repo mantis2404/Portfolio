@@ -1,0 +1,105 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Naitik Portfolio</title>
+        <link rel="stylesheet" href="portfoliostyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- heading -->
+    <header>
+        <button clas="nav-toggle" id="navtoggle">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </button>
+        <nav class="nav">
+            <ul class="nav_list nav-open">
+                <a href="#home" class="nav_items_link">HOME</a>
+                <a href="#mywork" class="nav_items_link">MY WORK</a>
+                <a href="#aboutme" class="nav_items_link">ABOUT ME</a>
+                <a href="#contact" class="nav_items_link">CONTACT</a>
+                <footer >
+                   <a href="https://github.com/mantis2404" target="_blanns"><i class="fa fa-brands fa-github social-icons" style="color:white"></i></a>
+                   <a href="https://x.com/Mantis6372" target="_blanks"><i class="fa fa-brands fa-twitter social-icons" style="color:white"></i></a>
+                   <a href="https://www.instagram.com/naitik.2404/" target="_blank"><i class="fa fa-brands fa-instagram social-icons" style="color:white"></i></a>
+                </footer>
+            </ul>
+        </nav>
+    <!-- <nav class="nav">
+        </nav> -->
+    </header>
+    <!-- intro -->
+ <section class="intro" id="home">
+     <h1 id="intro-title" >Hi, I am 
+        <strong>Naitik Singhal</strong>
+    </h1>
+     <p class="intro-subtitle">1st yearite at <a href="https://iitg.ac.in" target="_blank" id="iitg">IIT Guwahati</a></p>
+     <img src="naitik.jpeg" alt="profile photo" class="logo">
+</section>
+ <!-- My Work -->
+  <section class="work" id="mywork">
+      <h2 class="section-title">What I did</h2>
+      <div class="sectionbody">
+        <div class="mywork">
+            <h3 class="workbody-title">Work 1</h3>        
+            <p class="workbody-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis vel delectus inventore natus cum rem voluptas animi iusto nesciunt dolor reprehenderit labore nobis modi magni maiores corrupti, ab quis quaerat.</p>
+        </div>
+        <div class="mywork">
+            <h3 class="workbody-title">Work 2</h3>
+            <p class="workbody-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis vel delectus inventore natus cum rem voluptas animi iusto nesciunt dolor reprehenderit labore nobis modi magni maiores corrupti, ab quis quaerat.</p>
+        </div>
+        <div class="mywork">
+            <h3 class="workbody-title">Work 3</h3>
+            <p class="workbody-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis vel delectus inventore natus cum rem voluptas animi iusto nesciunt dolor reprehenderit labore nobis modi magni maiores corrupti, ab quis quaerat.</p>
+        </div>
+       </div>
+  </section> 
+<!-- about me -->
+ <section class="about" id="aboutme">
+    <h2 class="section-title">Who am I</h2>
+    <div class="about-body">
+        <p class="about-title">An enthusiast of the comptuing world</p>
+        <p class="about-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus molestias sapiente ducimus eaque veniam! Obcaecati officiis ex, iure laboriosam dolorum sequi harum, quidem veniam molestiae sapiente possimus culpa! Quibusdam a soluta optio eum quo ea dicta hic, pariatur ipsa at quis non eius iure fuga quam magni est incidunt cupiditate beatae explicabo rerum? Saepe, voluptate iure delectus minima deleniti labore.
+        </p>
+        <img src="me@iitg.jpg" id="meiitg">
+    </div>
+</section>
+<!-- Contact -->
+<section class="form">
+    <div id="contact">
+        <!-- <img src="busyman.jpg" id="busyman"> -->
+        <h1 class="section-title">Contact me</h1>
+        <form action="/thankyou.html" id="contactform" name="contactform" onsubmit="return validform()" method="post">
+            <div class="form-input" id="name">
+                <label for="name">Name</label><br>
+                <input type="text" name="fname" required class="form_input-values"><br>
+                <span class="formerror"></span>
+            </div>
+            <div class="form-input" id="phone">
+                <label for="phone">Phone No</label><br>
+                <input type="number" name="fphone" required class="form_input-values"><br>
+                <span class="formerror"></span>
+            </div>
+            <div class="form-input" id="email">
+                <label for="email">E-mail ID</label><br>
+                <input type="email" name="femail" required class="form_input-values"><br>
+                <span class="formerror"></span>
+            </div>
+            <div class="form-input" id="message">
+                <label for="message">Message</label><br>
+                <input type="text" name="fmessage" required class="form_input-values"><br>
+                <span class="formerror"></span>
+            </div>
+            <div id="buttdiv">
+                <input  type="submit" id="submit" value="SUBMIT">
+            </div>
+        </form>
+    </div>
+ </section>
+
+</body>
+<script src="portfolioscript.js"></script>
+</html>
