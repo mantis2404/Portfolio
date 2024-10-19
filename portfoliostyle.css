@@ -91,24 +91,16 @@ button{
    color: rgb(241, 240, 238);
 }
 .nav_list{
-   /* margin-top: 10%; */
-   /* margin-top: 10%; */
    display: none;
    font-family: Space Grotesk;
    transition: ease-in-out .3s;
    font-weight: 900;
-   /* font-family: "Playwrite GB S",cursive; */
    display: flex;
    flex-direction: column;
    overflow: hidden;
-   /* text-align: center; */
-   /* align-items: ; */
-   /* justify-content: space-evenly; */
    margin: 0;
    padding: 10px;
-   /* padding-left: 20px; */
    padding-top: 50px;
-   /* padding-right: 2%; */
    flex-wrap: wrap;
    z-index: 5;
    position:fixed;
@@ -117,8 +109,7 @@ button{
    right: 80vw;
    left: 0;
    font-size: 5vh;
-   min-width: 200px;
-   /* transform: translateX(0%); */
+   min-width: 250px;
    list-style-type: none;
    background-color: rgb(35, 1, 15);
    /* background: url(bg2.jpg); */
